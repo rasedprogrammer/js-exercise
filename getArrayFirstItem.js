@@ -1,6 +1,8 @@
-let items = ["banana", "apple", "graps", "painapple"];
+// let items = ["banana", "apple", "graps", "painapple"];
 function getFirstArrayItem(items) {
-  return items;
+  return items[0];
 }
-const firstItem = getFirstArrayItem(items[0]);
-console.log(firstItem);
+let itemList = ["banana", "apple", "graps", "painapple"];
+// const firstItem = getFirstArrayItem(items[0]);
+console.log(getFirstArrayItem(itemList));
+// console.log(firstItem);
